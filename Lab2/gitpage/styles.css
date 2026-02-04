@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #1b1f23;
+}
+
+/* ====== HEADER ====== */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 12px;
+}
+
+/* ====== NAV ====== */
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.logo img {
+    height: 32px;
+    width: 32px;
+    display: block;
+    cursor: pointer;
+}
+
+.nav_links {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.nav_links li a:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* ====== HEADER RIGHT ====== */
+.header_right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+input[type="search"] {
+    width: 240px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+input[type="search"]::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+
+input[type="search"]:focus {
+    border-color: #0969da;
+    box-shadow: 0 0 0 2px rgba(9, 105, 218, 0.15);
+    outline: none;
+}
+
+.header_btn button {
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.header_btn button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* ====== MAIN ====== */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ====== FIRST SECTION ====== */
+.first_section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ====== MAIN TEXT ====== */
+.main_text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main_text h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.main_text h3 {
+    font-size: 13px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 24px;
+}
+
+.main_text_btn {
+    width: 150px;
+    padding: 12px;
+    background-color: #282e34;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.main_text_btn:hover {
+    background-color: #3a414a;
+}
+
+.main_adds {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.add_1,
+.add_2,
+.add_3 {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 10px 40px;
+    width: 250px;
+    background-color: #fff;
+    transition: 0.5s
+
+
+
+}
+
+.add_1:hover,
+.add_2:hover,
+.add_3:hover {
+    border-color: #0969da;
+    box-shadow: 0 0 0 1px #0969da;
+}
+
+.add_1 button, 
+.add_2 button,
+.add_3 button {
+    border: 1px solid rgb(0, 0, 0) ;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 10px 15px;
+    font-size: 12px;
+    transition: 0.1s;
+}
+
+.add_1 button:hover, 
+.add_2 button:hover,
+.add_3 button:hover {
+    border: 1px solid rgba(0, 0, 0, 0.751) ;
+    border-radius: 6px;
+    background-color: #f5f3f3;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.main_adds_text {
+    text-align: center;
+}
+
+.main_adds_text p {
+    font-size: 12px;
+}
+
+.main_adds_text h3 {
+    font-size: 26px;
+}
+.add_lists {
+    list-style: none;
+    font-size: 13px;
+    padding: 0;
+}
+
+.add_lists li {
+    padding-bottom: 8px;
+}
+.Additional_adds_1{
+    margin-bottom: 30px;
+}
+
+.Additional_adds_1,
+.Additional_adds_2{
+    display: flex;
+    gap:30px;
+}
+.additional_adds h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.Additional_adds_1 div,
+.Additional_adds_2 div{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    width: 250px;
+    height: 200px;
+    padding: 10px 40px;
+    transition: 0.5s;
+}
+
+.Additional_adds_1 div a,
+.Additional_adds_2 div a{
+    text-decoration: none;
+    color: #1b1f23;
+    font-weight: bold;
+}
+
+.Additional_adds_1 div:hover,
+.Additional_adds_2 div:hover {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    padding: 12px 42px;
+}
