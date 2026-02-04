@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    background: radial-gradient(
+        circle at top left,
+        #1a1f24,
+        #0c1014 65%
+    );
+    color: white;
+    padding: 80px;
+}
+
+.insta_logo {
+    width: 48px;
+    margin-bottom: 30px;
+}
+
+.left h1 {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.left h1 span {
+    color: #ff0066;
+}
+
+.preview {
+    margin-top: 40px;
+    width: 420px;
+    border-radius: 16px;
+}
+
+.right {
+    flex: 1;
+    background-color: #12181f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.form_card {
+    width: 500px;
+    padding: 32px;
+}
+
+.form_card h2 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form input {
+    padding: 20px 40px;
+    border-radius: 12px;
+    border: 1px solid #4e565f;
+    background: #0c1014; 
+    color: white;
+    font-size: 12px;
+}
+
+form input::placeholder {
+    color: #8e8e8e;
+}
+
+form input:focus {
+    border-color: #1d9bf0;
+    outline: none;
+}
+
+.login_btn{
+    margin-top: 8px;
+    padding: 18px;
+    background: #1d9bf0;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login_btn:hover {
+    background: #1877f2;
+}
+
+.forgot_btn {
+    margin-top: 8px;
+    padding: 18px;
+    background: rgb(18 24 31);
+    border: none;
+    border-radius: 16px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.forgot_btn:hover {
+    background-color: rgb(35, 46, 58);
+}
+
+.new_acc {
+    background: rgb(18 24 31);
+    border: 1px solid #1877f2;
+    border-radius: 16px;
+    padding: 18px 10px;
+    color: #1877f2;
+    font-weight: 600;
+}
+
+.login_facebook {
+    background: rgb(18 24 31);
+    border: 1px solid #1877f2;
+    border-radius: 16px;
+    padding: 18px 10px;
+    color: #1877f2;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.login_facebook:hover,
+.new_acc:hover{
+    background-color: rgb(35, 46, 58);
+}
